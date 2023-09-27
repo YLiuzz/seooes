@@ -1,0 +1,21 @@
+# Theme
+title: 人間煙火
+#Navigation
+Menu:
+  主頁: /
+  時間軸: /archives
+  # 標籤: /tags
+  關於: /about
+
+#Post date format
+date_format: YYYY年MM月DD日
+#Read more
+read_more:  閱讀更多
+#Plugins setting
+highlight:
+  enable: true
+  theme: atom-one-dark #reference: source => plugins => highlight => styles=> style name
+# https://busuanzi.ibruce.info/
+busuanzi:
+  enable: true
+

@@ -1,0 +1,46 @@
+<div class="footer">
+  <div class="copy">
+    &copy;<% const now=new Date(); %>
+      <%= now.getFullYear(); %> 人間煙火。|
+        によって作成されたテーマ<a href="" target="_blank" title="Theme created by @V">@V</a>
+  </div>
+  <div class="hexo">
+    <span id="busuanzi_container_site_pv">本站總訪問量<span id="busuanzi_value_site_pv"></span>次</span>
+  </div>
+</div>
+
+<script>
+  window.onload = function () {
+    const withBg = localStorage.getItem('withBg');
+    if (withBg === 'true') {
+      document.body.classList.add('with-bg');
+      document.getElementById('bgToggle').classList.add('active');
+    }
+
+    document.getElementById('bgToggle').addEventListener('click', function (e) {
+      e.preventDefault();
+      const withBg = localStorage.getItem('withBg');
+      if (withBg === 'true') {
+        localStorage.setItem('withBg', 'false');
+        document.body.classList.remove('with-bg');
+        document.getElementById('bgToggle').classList.remove('active');
+      } else {
+        localStorage.setItem('withBg', 'true');
+        document.body.classList.add('with-bg');
+        document.getElementById('bgToggle').classList.add('active');
+      }
+    })
+  }
+</script>
+
+<% if (theme.highlight.enable) { %>
+  <script src="<%- url_for('/plugins/highlight/highlight.pack.js') %>"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <% } %>
+
+    <% if (theme.busuanzi.enable) { %>
+      <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+      <% } %>
+        </body>
+
+        </html>
