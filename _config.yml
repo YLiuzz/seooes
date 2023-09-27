@@ -118,7 +118,7 @@ Gitalk:
 
 disqus:
   enable: true
-  thread_count: true
-  shortname: auroracasino.disqus.com
+  thread_count: false
+  shortname: https-auroracasino-netlify-app
 
 
