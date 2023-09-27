@@ -112,7 +112,8 @@ Gitalk:
   enable: true
   clientID: "d5c12255ea5fcb80566f"
   clientSecret: "25cc3e3768ca46b876c6cface42cd8b406665d54"
-  repo: "git@github.com:YLiuzz/seooes.git"
+  repo: "seooes"
   owner: "YLiuzz"
-  admin: ["xx"]
+  admin: YLiuzz
+
 

@@ -18,4 +18,11 @@ highlight:
 # https://busuanzi.ibruce.info/
 busuanzi:
   enable: true
+Gitalk:
+  enable: true
+  clientID: "d5c12255ea5fcb80566f"
+  clientSecret: "25cc3e3768ca46b876c6cface42cd8b406665d54"
+  repo: "seooes"
+  owner: "YLiuzz"
+  admin: YLiuzz
 
