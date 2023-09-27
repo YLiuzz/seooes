@@ -119,6 +119,6 @@ Gitalk:
 disqus:
   enable: true
   thread_count: true
-  shortname: auroracasino
+  shortname: auroracasino.disqus.com
 
 
