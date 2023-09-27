@@ -1,7 +1,8 @@
-http://example.com/about.html
 http://example.com/2023/09/27/news1/
+http://example.com/about.html
 http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/NFT/
 http://example.com/tags/%E8%99%9B%E6%93%AC%E8%B2%A8%E5%B9%A3/
+http://example.com/tags/BTC/
 http://example.com/categories/web%E5%89%8D%E7%AB%AF/
