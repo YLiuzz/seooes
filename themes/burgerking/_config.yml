@@ -6,7 +6,7 @@ Menu:
   時間軸: /archives
   # 標籤: /tags
   關於: /about
-
+keywords: 'test,ssd'
 #Post date format
 date_format: YYYY年MM月DD日
 #Read more

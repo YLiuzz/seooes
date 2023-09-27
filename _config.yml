@@ -6,7 +6,7 @@
 title: Hexo
 subtitle: ''
 description: ''
-keywords:
+# keywords: 'test,ssd'
 author: John Doe
 language: en
 timezone: ''
@@ -102,14 +102,17 @@ theme: burgerking
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:YLiuzz/seooes.git
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
 
 # Gitalk settings, check at: https://github.com/gitalk/gitalk#usage
 Gitalk:
   enable: true
-  clientID: ""
-  clientSecret: ""
-  repo: ""
-  owner: ""
+  clientID: "d5c12255ea5fcb80566f"
+  clientSecret: "25cc3e3768ca46b876c6cface42cd8b406665d54"
+  repo: "git@github.com:YLiuzz/seooes.git"
+  owner: "YLiuzz"
   admin: ["xx"]
 
