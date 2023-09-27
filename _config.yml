@@ -116,4 +116,9 @@ Gitalk:
   owner: "YLiuzz"
   admin: YLiuzz
 
+disqus:
+  enable: true
+  thread_count: true
+  shortname: auroracasino
+
 
