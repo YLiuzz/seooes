@@ -121,4 +121,6 @@ disqus:
   thread_count: false
   shortname: https-auroracasino-netlify-app
 
+sitemap:
+	path: sitemap.xml
 
