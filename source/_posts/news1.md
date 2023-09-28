@@ -1,8 +1,6 @@
 ---
 title: 市場泡沫化！全球95%NFT市值「趨近於零」淪數位壁紙…
 date: 2023-09-27 12:48:23
-categories:
-- web前端
 tags: [NFT,虛擬貨幣,BTC]
 
 ---
